@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F4F4F4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Form Data"
+        android:textSize="24sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:background="#FFFFFF"
+        android:textColor="#333333"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Customer"
+        android:background="#FFFFFF"
+        android:textColor="#333333"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spinnerBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:textColor="#333333"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga"
+        android:background="#FFFFFF"
+        android:textColor="#333333"
+        android:padding="8dp"
+        android:inputType="number"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextJumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah"
+        android:background="#FFFFFF"
+        android:textColor="#333333"
+        android:padding="8dp"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:backgroundTint="#007bff"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+
+</LinearLayout>
